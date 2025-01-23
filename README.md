@@ -2,6 +2,18 @@
 
 This repository contains an API built using Flask to predict manufacturing downtime based on temperature and run time data. The model is trained using a sample dataset containing Machine_ID, Temperature, Run_Time, and Downtime_Flag.
 
+## Sample Dataset
+
+You can download the sample dataset used for training the model from the following file:  
+`data/manufacturing_data_sample.csv`
+
+The dataset contains the following columns:
+- `Machine_ID`: Unique ID of the machine.
+- `Temperature`: Temperature reading of the machine.
+- `Run_Time`: Duration of machine run.
+- `Downtime_Flag`: 0 if no downtime, 1 if downtime occurred.
+
+
 ## Setup Instructions
 
 1. **Clone the repository** (if applicable):
